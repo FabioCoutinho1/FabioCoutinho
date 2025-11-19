@@ -21,9 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "FluxoRegistro",
       description: `Sistema desenvolvido para uma cliente com o objetivo de otimizar
-       o acompanhamento dos registros de marcas realizados em seu trabalho. A aplicação
-        permite gerenciar e visualizar o status de cada registro de forma simples e eficiente,
-         facilitando a organização e o controle das etapas do processo.`,
+       o acompanhamento dos registros de marcas realizados em seu trabalho.`,
       image: "img/FluxoRegistro.png",
       github: "https://github.com/FabioCoutinho1/Registro",
       demo: "https://fluxoregistro.vercel.app/",

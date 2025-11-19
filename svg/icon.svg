@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 34.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4f46e5;
+      }
+
+      .cls-2 {
+        fill: #fff8f7;
+        font-family: CascadiaMonoRoman-Bold, 'Cascadia Mono';
+        font-size: 25px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <rect class="cls-1" width="24" height="24" rx="1.84" ry="1.84"/>
+    <text class="cls-2" transform="translate(4.68 21.97)"><tspan x="0" y="0">F</tspan></text>
+  </g>
+</svg>
