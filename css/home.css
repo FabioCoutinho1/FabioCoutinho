@@ -10,17 +10,16 @@
   width: 100%;
   height: 100%;
   display: flex;
-  flex: 1;
   margin: auto;
 }
 
 .container__left {
   height: 100%;
-  width: 50%;
+  flex: 1;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 .container__left h2 {
   font-family: "Poppins", sans-serif;
@@ -128,24 +127,29 @@
 }
 
 .provision {
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   height: 100%;
-  width: 50%;
+  flex: 1;
+  flex-shrink: 1;
 }
 
 .provision .art {
-  width: 18.75rem;
-  height: 18.75rem;
+  width: 20rem;
+  min-width: 15rem;
+  aspect-ratio: 1/1;
+  background-image: url("/img/my-avatar.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: var(--highlight-color);
   border-radius: 6rem;
 }
 
 @media (max-width: 1200px) {
-  .provision {
-    display: none;
+  .container__home {
+    gap: 5rem;
   }
   .container__left {
     width: 100%;
@@ -157,18 +161,32 @@
     font-size: 4rem;
     line-height: 3rem;
   }
+
+  .provision {
+    min-width: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .provision {
+    width: 100%;
+    justify-content: center;
+  }
+  .container__home {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
   #home {
     padding: 6rem 1.5rem 1.3rem 1.5rem;
   }
+
   .container__left {
     width: 100%;
   }
-  .provision {
-    display: none;
-  }
+
   .container__left h2 {
     font-size: 1.3rem;
   }
