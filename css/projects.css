@@ -55,13 +55,25 @@
 
 .icons__redirect i {
   font-size: 1.5rem;
+  background-color: var(--highlight-color);
   cursor: pointer;
+  color: var(--text-color-projects);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  transition: transform 0.3s ease;
+}
+
+.icons__redirect i:hover {
+  transform: scale(1.1);
 }
 
 .card__item img {
   border-radius: 1.3rem 1.3rem 0 0;
   object-fit: contain;
-  width: 100%;
   max-width: 400px;
   min-height: 300px;
   object-fit: cover;
