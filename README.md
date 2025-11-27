@@ -19,8 +19,8 @@ Bem-vindo ao meu portfólio! Aqui você encontra meus projetos, estudos e habili
 | Meu Portfólio Pessoal | Site pessoal que reúne meus projetos e perfil. | [Link do Portfólio](https://fabiocoutinho.vercel.app/) |
 | *(Adicionar mais projetos aqui)* | *(O que faz o projeto)* | *(URL ou breve descrição)* |
 
-> **Dica:** adicione um screenshot ou GIF de cada projeto para mostrar visualmente — dá mais impacto. 📸
-![}(assets/img-hero.png)
+![](assets/img-hero.png)
+![](assts/img-phone.png)
 
 ---
 
