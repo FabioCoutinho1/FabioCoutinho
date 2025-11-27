@@ -20,7 +20,7 @@ Bem-vindo ao meu portfólio! Aqui você encontra meus projetos, estudos e habili
 | *(Adicionar mais projetos aqui)* | *(O que faz o projeto)* | *(URL ou breve descrição)* |
 
 ![](assets/img-hero.png)
-![](assts/img-phone.png)
+![](assets/img-phone.png)
 
 ---
 
