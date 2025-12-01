@@ -74,7 +74,8 @@
 .card__item img {
   border-radius: 1.3rem 1.3rem 0 0;
   object-fit: contain;
-  max-width: 400px;
+  max-width: 100%;
+  height: 300px;
   min-height: 300px;
   object-fit: cover;
 }
@@ -126,20 +127,12 @@
 }
 
 @media (max-width: 1024px) {
-  .cards__list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .card__item {
-    max-width: 400px;
-  }
 }
 @media (max-width: 768px) {
   #projects {
     padding: 6rem 1.5rem 1.3rem 1.5rem;
   }
-  .cards__list {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
+
   #projects > h2 {
     font-size: 2rem;
   }
