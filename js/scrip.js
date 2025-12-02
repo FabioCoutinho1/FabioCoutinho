@@ -18,10 +18,22 @@ switchTheme.forEach((el) => {
     console.log(isDarkMode);
   });
 });
-menuBtn.addEventListener("click", () => {
+
+const checkIconMenuMobile = () => {
   const isOpen = mobileMenu.classList.toggle("show__list");
   menuBtn.classList.toggle("fa-bars", !isOpen);
   menuBtn.classList.toggle("fa-xmark", isOpen);
+};
+
+menuBtn.addEventListener("click", () => {
+  checkIconMenuMobile();
+  const navList = mobileMenu.querySelectorAll("li");
+  navList.forEach((el) => {
+    el.addEventListener("click", () => {
+      mobileMenu.classList.remove("show__list");
+      menuBtn.classList.add("fa-bars");
+    });
+  });
 });
 
 if (savedTheme) {
